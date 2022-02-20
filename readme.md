@@ -33,3 +33,14 @@ Um programa que informa qual é o número mínimo de caracteres que devem ser ad
 Um algoritmo que encontra o número de pares de substrings que são anagramas na string fornecida.
 
     ./gradlew -q questao3  --args='ifailuhkqq'
+
+#### Tecnologia Usada
+
+Os programas basicamentes foram escritas em java usando a jdk 11, as poucas bibliotecas adicionadas ao projeto são apara auxiliar com os testes:
+
+ - [JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
+   - Plataforma utilizada para criar os testes unitários.
+ - [AssertJ](https://assertj.github.io/doc/)
+   - Uma biblioteca para fazer as asserções nos testes, ela foi escolhida por que eu acho que as asserções ficam muito mais legíveis e fluídas do com a biblioteca padrão do JUnit. 
+ - [Console Captor](https://github.com/Hakky54/console-captor)
+   - Esta biblioteca tem a função de redirecionar a saída padrão dos programas em javas, dessa forma é possível fazer verificações das saídas (System.out) facilmente para testar e conferir o resultado.
