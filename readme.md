@@ -11,25 +11,25 @@ para isso foram propostos três desafios com diferentes níveis de dificuldade.
  - Java JDK 11
 
 ### Instruções para execução do programa
-Embora não seja o melhor, o modo mais fácil de executar o programa é usando o gradle wrapper que está na pasta do projeto. Ele deve ser executado no terminal (prompt de comando no windows).
+Embora não seja o melhor, o modo mais fácil de executar o programa é usando o gradle wrapper que está na pasta do projeto. Ele deve ser executado no terminal (prompt de comando no windows), a partir do diretório raiz do repositório.
 
-    ./gradlew -q <questao> <argumento>
+    ./gradlew -q <questao>  --args='<argumento>'
 
 no windows o comando é 
     
-    ./gradle.bat -q <questao> <argumento>
+    ./gradle.bat -q <questao>  --args='<argumento>'
 
 #### Questão 01: 
 Mostra na tela uma escada de tamanho N utilizando o caractere * e espaços.
     
-    ./gradlew -q questao1 6
+    ./gradlew -q questao1  --args='6'
 
 #### Questão 02:
 Um programa que informa qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura de acordo com a especificação.
 
-    ./gradlew -q questao2 $Shu12
+    ./gradlew -q questao2  --args='$Shu12'
 
 #### Questão 03:
 Um algoritmo que encontra o número de pares de substrings que são anagramas na string fornecida.
 
-    ./gradlew -q questao3 ifailuhkqq
+    ./gradlew -q questao3  --args='ifailuhkqq'
